@@ -28,8 +28,9 @@ General software and settings that work across platforms.
 If you are interested in this project, feel free to contribute your own software list, configuration tips, or documentation.
 
 ### Repository File Format Specification
+**General Principle:**
 - Each software or tool should have its own Markdown file, named `SoftwareName.md` or `SoftwarePurpose.md`.
-- Each Markdown file should include the following (recommended but not mandatory):
+- Each Markdown file should include the following content (recommended but not mandatory):
   - A brief introduction to the software
   - Installation instructions
   - Usage (a simple explanation is enough)
@@ -37,6 +38,10 @@ If you are interested in this project, feel free to contribute your own software
   - Links to other related resources (such as tutorials, communities, etc.)
 - If you want to provide configuration files or other related resources, you can place them in a folder named after the software (or its purpose), and provide a link to it in the Markdown file.
 - Each software's Markdown file should be placed in the corresponding directory (Windows, Linux, Mac, or General).
+
+**Special:**
+- If there are multiple related or similar tools, you can introduce them in one Markdown file.
+- In this case, it is recommended to name the Markdown file by function or purpose, such as `TextEditor.md` or `DeveloperTools.md`.
 
 ## Contact
 
