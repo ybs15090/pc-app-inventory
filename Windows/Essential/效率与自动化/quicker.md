@@ -3,7 +3,7 @@
   - [安装](#安装)
   - [使用](#使用)
 
-# Quicker
+# <img src="../../../.media/png/quicker.png" width="60" height="60" alt="Boxes logo">Quicker
 
 您的指尖工具箱
 
