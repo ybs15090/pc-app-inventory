@@ -29,7 +29,9 @@ Visual Studio Code (简称 VScode) 是一款适用于 Windows、macOS 和 Linux 
     Debian / Ubuntu - 下载.deb软件包并使用sudo apt install ./<file>.deb.
     Fedora / RHEL - 下载.rpm软件包并使用以下命令安装sudo dnf install ./<file>.rpm。
 2. VS Code 已正式作为 Snap 软件包在Snap Store中分发。
+   
     ![snap store](../../.media/png/snap-store.png)
+    
     使用以下命令安装 Snap 软件包：
     ```bash
     sudo snap install --classic code # or code-insiders
