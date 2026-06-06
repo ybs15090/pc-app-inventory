@@ -6,7 +6,7 @@
     - [Linux](#linux)
   - [更新](#更新)
 
-# <img src="../../.media/svg/code-icon.svg" width="60" height="60" alt="code Logo"> VScode
+# <img src="../../../.media/svg/code-icon.svg" width="60" height="60" alt="code Logo"> VScode
 
 Visual Studio Code (简称 VScode) 是一款适用于 Windows、macOS 和 Linux 的免费开源代码编辑器。它是一个面向人工智能代理的开放平台，旨在实现可扩展性，并由功能强大的编辑器提供支持，内置调试、Git 和 IntelliSense 等功能。
 
@@ -30,7 +30,7 @@ Visual Studio Code (简称 VScode) 是一款适用于 Windows、macOS 和 Linux 
     Fedora / RHEL - 下载.rpm软件包并使用以下命令安装sudo dnf install ./<file>.rpm。
 2. VS Code 已正式作为 Snap 软件包在Snap Store中分发。
    
-    ![snap store](../../.media/png/snap-store.png)
+    ![snap store](../../../.media/png/snap-store.png)
     
     使用以下命令安装 Snap 软件包：
     ```bash

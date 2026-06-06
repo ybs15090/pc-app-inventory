@@ -1,10 +1,11 @@
 # 目录 <!-- omit in toc -->
-- [Git](#git)
+- [ Git](#-git)
   - [安装](#安装)
   - [Git 的核心概念包括：](#git-的核心概念包括)
   - [Git 的常用命令包括：](#git-的常用命令包括)
+  - [ GitHub](#-github)
 
-# Git
+# <img src="../../../.media/svg_black/terminal-git-bash.svg" width="60" height="60" alt="code-Logo"> Git
 Git 是一个分布式版本控制系统，广泛用于软件开发和其他版本控制任务。它允许多个开发者协同工作，跟踪文件的更改历史，并管理项目的不同版本。
 
 ## 安装
@@ -37,4 +38,8 @@ sudo apt-get install git
 - `git diff`：查看文件更改的差异。
 Git 还支持更多高级功能，如标签（Tag）、子模块（Submodule）和钩子（Hook）等，使其成为一个强大且灵活的版本控制工具。
 
+## <img src="../../../.media/svg/github-inverted.svg" width="60" height="60" alt="github-Logo"> [GitHub](https://github.com)
 
+GitHub是一个在线软件源代码托管服务平台，用于公开程序或软件的代码。使用Git作为版本控制软件，由开发者克里斯·汪斯崔斯、P·J·海特和汤姆·普雷斯顿·沃纳使用Ruby on Rails编写而成。在2018年，GitHub被微软公司收购。
+
+GitHub同时提供付费账户和免费账户。这两种账户都可以建立公开或私有的代码仓库，但付费用户拥有更多功能。

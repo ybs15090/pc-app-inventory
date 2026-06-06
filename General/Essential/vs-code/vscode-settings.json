@@ -8,22 +8,7 @@
     "editor.mouseWheelZoom": true,
     "editor.fontLigatures": true,
     "editor.fontVariations": false,
-    // "editor.fontFamily": "'JetBrains Mono', Consolas, monospace"
-    // "editor.fontFamily": "'Fira Code', Consolas, monospace"
-    // "editor.fontFamily": "'CaskaydiaCove NF', Consolas, monospace"
-    // "editor.fontFamily": "'Source Code Pro', Consolas, monospace"
-    // "editor.fontFamily": "'Cascadia Code', Consolas, monospace"
-    // "editor.fontFamily": "'Fira Mono', Consolas, monospace"
-    // "editor.fontFamily": "'Ubuntu Mono', Consolas, monospace"
-    // "editor.fontFamily": "'Hack', Consolas, monospace"
-    // "editor.fontFamily": "'JetBrains Mono NL', Consolas, monospace"
-    // "editor.fontFamily": "'Inconsolata', Consolas, monospace"
-    // "editor.fontFamily": "'Anonymous Pro', Consolas, monospace"
-    // "editor.fontFamily": "'Liberation Mono', Consolas, monospace"
-    // "editor.fontFamily": "'Droid Sans Mono', Consolas, monospace"
-    // "editor.fontFamily": "'Lucida Console', Consolas, monospace"
-    // "editor.fontFamily": "'Monaco', Consolas, monospace"
-
+    
     "editor.fontFamily": "'Consolas', monospace",
     "files.associations": {
         "*.txt": "markdown"
@@ -40,11 +25,6 @@
     "github.copilot.chat.alternateGptPrompt.enabled": true,
     "github.copilot.chat.languageContext.typescript.includeDocumentation": true,
 
-    // "editor.fontFamily": "'Courier New', monospace"
-    // "editor.fontFamily": "'霞鹜_mono', monospace"
-    // "editor.fontFamily": "'PT Mono', monospace"
-    // "editor.fontFamily": "'Oxygen Mono', monospace"
-    // "editor.fontFamily": "'Agency FB', monospace"
     "C_Cpp.default.compilerPath": "E:/msys64/ucrt64/bin/gcc.exe",
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -59,9 +39,7 @@
         "*": true,
         "markdown": true
     },
-    "debug.javascript.pickAndAttachOptions": {
 
-    },
     "git.path": "E:/Program Files/Git/cmd/git.exe",
     "git.confirmSync": false,
     "codeium.disableSupercomplete": true,
@@ -69,11 +47,9 @@
     "debug.allowBreakpointsEverywhere": true,
     "claudeCode.preferredLocation": "panel",
 
-
-    //todo-tree 标签配置  标签兼容大小写字母(很好的功能!!!)
-  "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \[ \])",
   "todo-tree.general.tags": [
-    "TODO", //添加自定义的标签成员,将在下面实现它们的样式
+    "TODO",
     "BUG",
     "tag",
     "done",
@@ -81,31 +57,27 @@
     "test",
     "XXX"
   ],
-
   "todo-tree.highlights.defaultHighlight": {
-    "foreground": "#000000", //字体颜色
-    "background": "#FFFF00", //背景色
-    "icon": "check", //标签样式
-    "rulerColour": "#FFFF00", //边框颜色
-    "type": "tag", //填充色类型
-    "iconColour": "#FFFF00" //标签颜色
+    "foreground": "#000000",
+    "background": "#FFFF00",
+    "icon": "check",
+    "rulerColour": "#FFFF00",
+    "type": "tag",
+    "iconColour": "#FFFF00"
     },
   "todo-tree.highlights.customHighlight": {
-    //todo 		需要做的功能
     "TODO": {
-      "icon": "alert", //标签样式
-      "background": "#c9c552", //背景色
-      "rulerColour": "#c9c552", //外框颜色
-      "iconColour": "#c9c552", //标签颜色
+      "icon": "alert",
+      "background": "#c9c552",
+      "rulerColour": "#c9c552",
+      "iconColour": "#c9c552",
     },
-    //bug		必须要修复的BUG  
     "BUG": {
       "background": "#eb5c5c",
       "icon": "bug",
       "rulerColour": "#eb5c5c",
       "iconColour": "#eb5c5c",
     },
-    //tag		标签
     "tag": {
       "background": "#38b2f4",
       "icon": "tag",
@@ -113,31 +85,27 @@
       "iconColour": "#38b2f4",
       "rulerLane": "full"
     },
-    //done		已完成
     "done": {
       "background": "#5eec95",
       "icon": "check",
       "rulerColour": "#5eec95",
       "iconColour": "#5eec95",
     },
-    //mark     	标记一下
     "mark:": {
       "background": "#f90",
       "icon": "note",
       "rulerColour": "#f90",
       "iconColour": "#f90",
     },
-    //test		测试代码
     "test": {
       "background": "#df7be6",
       "icon": "flame",
       "rulerColour": "#df7be6",
       "iconColour": "#df7be6",
     },
-    //update  	优化升级点
     "XXX": {
       "background": "#d65d8e",
-      "icon": "versions",   
+      "icon": "versions",
       "rulerColour": "#d65d8e",
       "iconColour": "#d65d8e",
     }
