@@ -1,9 +1,9 @@
 # 目录 <!-- omit in toc -->
-- [MacroDroid](#macrodroid)
+- [ MacroDroid](#-macrodroid)
   - [使用](#使用)
 
 
-# MacroDroid
+# <img src="../../.media/png/MacroDroid.png" width="60" height="60" alt="Boxes logo"> MacroDroid
 MacroDroid 是一款 Android 应用，用户可以通过创建自定义宏来自动化设备上的任务，这些宏可以由特定事件或条件触发。
 
 - [官网](https://www.macrodroid.com/)
