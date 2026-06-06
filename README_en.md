@@ -55,7 +55,9 @@ If you find errors or outdated content, feedback via Issue, PR, or email is welc
 
 If you have any questions, please contact me at:
 
-- Email: ybs15090@outlook.com
+- Email: 
+  - ybs15090@outlook.com
+  - ybs15090@gmail.com
 
 
 ### [Back to README](README.md)
