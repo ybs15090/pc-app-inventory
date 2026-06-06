@@ -28,20 +28,28 @@ General software and settings that work across platforms.
 If you are interested in this project, feel free to contribute your own software list, configuration tips, or documentation.
 
 ### Repository File Format Specification
-**General Principle:**
-- Each software or tool should have its own Markdown file, named `SoftwareName.md` or `SoftwarePurpose.md`.
+
+**Organization Principle:**
+- Software with related or similar functionality should be placed in the **same folder**, with the folder named by function or purpose, such as `NetworkProxyTools/`, `TextEditors/`.
+- Within the folder, if each software's documentation is brief, they can share a single Markdown file (e.g., `NetworkProxyTools.md`); if a particular software requires extensive documentation, it is recommended to give it its own Markdown file (e.g., `Clash-Verge.md`).
 - Each Markdown file should include the following content (recommended but not mandatory):
   - A brief introduction to the software
   - Installation instructions
   - Usage (a simple explanation is enough)
   - Link to official documentation (if available)
   - Links to other related resources (such as tutorials, communities, etc.)
-- If you want to provide configuration files or other related resources, you can place them in a folder named after the software (or its purpose), and provide a link to it in the Markdown file.
-- Each software's Markdown file should be placed in the corresponding directory (Windows, Linux, Mac, or General).
+- If you want to provide configuration files or other related resources, you can place them in a same-named folder, and provide a link to it in the Markdown file.
+- All content should be placed in the corresponding platform directory (Windows, Linux, Mac, or General).
 
-**Special:**
-- If there are multiple related or similar tools, you can introduce them in one Markdown file.
-- In this case, it is recommended to name the Markdown file by function or purpose, such as `TextEditor.md` or `DeveloperTools.md`.
+## Disclaimer
+
+Not all software listed in this repository has been personally used by the maintainer. Some installation steps, usage instructions, and related information are compiled from online sources and **may not be fully accurate or up-to-date**. Before using any software, please:
+
+- Refer to official documentation for installation and configuration details
+- Evaluate the security and suitability of the software yourself
+- Back up important data before making significant changes
+
+If you find errors or outdated content, feedback via Issue, PR, or email is welcome.
 
 ## Contact
 
