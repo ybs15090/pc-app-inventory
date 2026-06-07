@@ -4,6 +4,7 @@
 ## 清单
 
 - [AnyDesk](anydesk.md) — 低延迟远程桌面，个人免费
+- [QtScrcpy](qtscrcpy.md) — Android 屏幕投屏与控制，无需 root
 
 ---
 
