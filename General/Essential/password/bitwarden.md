@@ -1,5 +1,5 @@
 # 目录 <!-- omit in toc -->
-- [Bitwarden](#bitwarden)
+- [ Bitwarden](#-bitwarden)
   - [安装](#安装)
     - [浏览器扩展](#浏览器扩展)
     - [桌面端](#桌面端)
@@ -11,8 +11,9 @@
   - [核心功能](#核心功能)
   - [使用提示](#使用提示)
   - [相关链接](#相关链接)
+    - [回到 password](#回到-password)
 
-# Bitwarden
+# <img src="../../../.media/png/bitwarden.png" width="60" height="60" alt="bitwarden-logo"> Bitwarden
 
 Bitwarden 是一款开源的跨平台密码管理器，支持 Windows、macOS、Linux、Android、iOS 及主流浏览器。所有密码数据在本地加密后再同步至云端，用户可以自主选择官方服务器或自托管（自建服务端）。个人用户可免费使用全部核心功能，付费版提供高级两步验证、安全报告等额外特性。
 

@@ -4,7 +4,8 @@
 ## 清单
 
 - [Bitwarden](bitwarden.md) — 开源跨平台密码管理器，支持自托管
+- [Bitwarden Authenticator](bitwarden-authenticator.md) — 独立两步验证（TOTP）应用
 
 ---
 
-### [回到 General/Optional](../README.md)
+### [回到 General/Essential](../README.md)
