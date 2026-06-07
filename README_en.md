@@ -71,6 +71,7 @@ If you are interested in this project, feel free to contribute your own software
   - Usage (a brief explanation is sufficient)
   - Link to official documentation (if available)
   - Links to other related resources (tutorials, communities, etc.)
+  - If you want to include icons or other media assets, please place them in the corresponding folder under `.media/`
 
 ## Disclaimer
 
