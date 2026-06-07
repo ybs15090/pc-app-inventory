@@ -4,6 +4,8 @@
 
 - [network-proxy](network-proxy/README.md) — 网络代理工具（Clash Verge、Clash Party、v2rayA）
 - [remote-desktop](remote-desktop/README.md) — 远程桌面（AnyDesk）
+- [password](password/README.md) — 密码管理与凭据存储
+- [security](security/README.md) — 安全与隐私保护工具
 - [Obsidian.md](Obsidian.md) — 本地 Markdown 知识管理工具
 - [CC-Switch](CC-Switch/CC_switch.md) — CC Switch 配置
 - [PDF_reader.md](PDF_reader.md) — PDF 阅读与处理工具
