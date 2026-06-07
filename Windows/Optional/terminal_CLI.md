@@ -1,3 +1,4 @@
+<!-- software-count: 3 -->
 # 目录 <!-- omit in toc -->
 - [ Windows Terminal](#-windows-terminal)
   - [安装](#安装)
@@ -9,6 +10,7 @@
 - [  Tabby](#--tabby)
   - [安装](#安装-2)
 - [相关链接](#相关链接)
+    - [回到 Windows/Optional](#回到-windowsoptional)
 
 # <img src="../../.media/svg/Windows-terminal.svg" width="60" height="60" alt="github-logo"> Windows Terminal
 

@@ -24,6 +24,20 @@ Android 系统的工具与应用。
 
 iOS / iPadOS 系统的工具与应用。
 
+##  收录统计 <!-- omit in toc -->
+>统计仅供参考！
+
+| 平台 | Essential | Optional | 合计 |
+|------|-----------|----------|------|
+| Windows | 3 | 7 | **10** |
+| Linux | 11 | 5 | **16** |
+| MacOS | 0 | 0 | **0** |
+| General | 3 | 8 | **11** |
+| Android | 0 | 1 | **1** |
+| iOS | 0 | 0 | **0** |
+
+> 运行 `bash scripts/count-software.sh` 可刷新统计。
+
 ## 使用方法
 
 1. 克隆本仓库到本地（或者在线使用）。

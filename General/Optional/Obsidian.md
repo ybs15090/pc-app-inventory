@@ -1,5 +1,5 @@
 # 目录 <!-- omit in toc -->
-- [ Obsidian](#-obsidian)
+- [Obsidian](#obsidian)
   - [安装](#安装)
     - [Windows](#windows)
     - [macOS](#macos)
@@ -9,9 +9,9 @@
   - [推荐插件](#推荐插件)
   - [使用提示](#使用提示)
   - [相关链接](#相关链接)
-    - [回到 General/Essential](#回到-generalessential)
+    - [回到 General/Optional](#回到-generaloptional)
 
-# <img src="../../.media/ico/obsidian.ico" width="60" height="60" /> Obsidian
+# Obsidian
 
 Obsidian 是一款基于本地 Markdown 文件的知识管理工具，以"笔记库"（Vault）为核心概念——只需选择一个本地文件夹，即可将其中的所有 Markdown 文件作为笔记进行浏览、搜索和关联。支持双向链接、关系图谱、反向链接面板、Canvas 画布以及丰富的第三方插件生态，适合个人知识管理、项目文档整理、笔记写作等多种场景。
 
@@ -105,8 +105,9 @@ flatpak install flathub md.obsidian.Obsidian
 - [Obsidian 帮助文档](https://help.obsidian.md/)
 - [Obsidian 中文论坛](https://forum-zh.obsidian.md/)
 - [社区插件市场](https://obsidian.md/plugins)
+- [GitHub](https://github.com/obsidianmd/obsidian-releases) 非开源
 
 
 ---
 
-### [回到 General/Essential](README.md)
+### [回到 General/Optional](README.md)

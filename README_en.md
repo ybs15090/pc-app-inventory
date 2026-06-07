@@ -24,6 +24,19 @@ Tools and apps for the Android system.
 
 Tools and apps for the iOS / iPadOS system.
 
+## Software Count <!-- omit in toc -->
+
+| Platform | Essential | Optional | Total |
+|----------|-----------|----------|-------|
+| Windows | 3 | 7 | **10** |
+| Linux | 11 | 5 | **16** |
+| MacOS | 0 | 0 | **0** |
+| General | 3 | 8 | **11** |
+| Android | 0 | 1 | **1** |
+| iOS | 0 | 0 | **0** |
+
+> Run `bash scripts/count-software.sh` to refresh stats.
+
 ## Usage
 
 1. Clone this repository locally or use it online.
