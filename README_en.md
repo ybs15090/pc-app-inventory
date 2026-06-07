@@ -31,7 +31,7 @@ If you are interested in this project, feel free to contribute your own software
 
 **Organizational Principles:**
 
-- All content should be placed under the corresponding platform directory (`Windows/`, `Linux/`, `Mac/`, or `General/`), and further categorized into `Essential/` (must-have) or `Optional/` (elective) subdirectories.
+- Content should be placed under the corresponding platform directory (`Windows/`, `Linux/`, `Mac/`, or `General/`), and further categorized into `Essential/` (must-have) or `Optional/` (elective) subdirectories. If a piece of software supports multiple platforms but its primary use case is concentrated on one platform, it may be categorized under that platform's directory. For example, Spacedesk's host driver only supports Windows, so it belongs under `Windows/`.
 
 - **Standalone software**: Create a `SoftwareName.md` file directly under the category directory — no folder is needed.  
   Example: `Linux/Optional/Distrobox容器软件.md`

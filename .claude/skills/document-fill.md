@@ -47,7 +47,13 @@
 
 ## 安装
 
-按平台分小节（Windows / macOS / Linux），提供包管理器和官网下载两种方式。
+按平台分小节（Windows / macOS / Linux）。
+
+**每个平台的安装章节应同时提供以下方式：**
+- **包管理器**（首选）：winget/Scoop/Chocolatey（Windows）、Homebrew（macOS）、apt/dnf/pacman（Linux）
+- **本地安装包**（备选）：`.msi`/`.exe`（Windows）、`.dmg`（macOS）、`.deb`/`.rpm`（Linux），或从官网/GitHub Releases 下载的二进制文件
+
+Linux 平台应始终提及通过 `.deb` / `.rpm` 等本地安装包作为备选方案，因为部分场景下用户无法或不希望使用外部包管理器。
 
 ## 快速入门 / 使用方法
 

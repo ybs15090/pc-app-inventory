@@ -31,7 +31,7 @@
 
 **组织原则：**
 
-- 所有内容应放置于对应的平台目录（`Windows/`、`Linux/`、`Mac/` 或 `General/`）之下，并进一步归入 `Essential/`（必装）或 `Optional/`（选装）子目录。
+- 软件条目应归入对应的平台目录（`Windows/`、`Linux/`、`Mac/` 或 `General/`）之下，并进一步归入 `Essential/`（必装）或 `Optional/`（选装）子目录。如果一款软件虽然支持多个平台，但其核心使用场景集中在某一平台上，也可按其主要使用平台归类。例如，Spacedesk 的主控端仅支持 Windows，因此归入 `Windows/` 目录。
 
 - **单个独立软件**：直接在分类目录下创建 `软件名称.md` 文件，无需为其单独创建文件夹。  
   例如：`Linux/Optional/Distrobox容器软件.md`
