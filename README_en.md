@@ -29,17 +29,27 @@ If you are interested in this project, feel free to contribute your own software
 
 ### Repository File Format Specification
 
-**Organization Principle:**
-- Software with related or similar functionality should be placed in the **same folder**, with the folder named by function or purpose, such as `NetworkProxyTools/`, `TextEditors/`.
-- Within the folder, if each software's documentation is brief, they can share a single Markdown file (e.g., `NetworkProxyTools.md`); if a particular software requires extensive documentation, it is recommended to give it its own Markdown file (e.g., `Clash-Verge.md`).
-- Each Markdown file should include the following content (recommended but not mandatory):
+**Organizational Principles:**
+
+- All content should be placed under the corresponding platform directory (`Windows/`, `Linux/`, `Mac/`, or `General/`), and further categorized into `Essential/` (must-have) or `Optional/` (elective) subdirectories.
+
+- **Standalone software**: Create a `SoftwareName.md` file directly under the category directory — no folder is needed.  
+  Example: `Linux/Optional/Distrobox容器软件.md`
+
+- **Standalone software with supplementary assets** (configuration files, screenshots, etc.): Create a folder named after the software, and place the `.md` document together with the asset files inside it.  
+  Example: `General/Essential/VScode/` contains `vs-code.md`, `vscode-settings.json`, etc.
+
+- **Multiple related software** (each with substantial documentation): Create a folder named by function or purpose, with each piece of software having its own `.md` file. Such folders must include a `README.md` that lists the software covered in that category and provides navigation links to each individual document.  
+  Example: `General/Optional/network-proxy/` contains `Clash-Verge.md`, `v2rayA.md`, etc., along with a `README.md` serving as the index.
+
+- **Multiple related software** (each with brief documentation): They may be combined into a single Markdown file for comparative introduction. In this case, name the file by function or purpose (e.g., `FileEditing.md`, `RemoteConnection.md`) — again, no folder is needed.
+
+- Each Markdown file is recommended to include the following:
   - A brief introduction to the software
   - Installation instructions
-  - Usage (a simple explanation is enough)
+  - Usage (a brief explanation is sufficient)
   - Link to official documentation (if available)
-  - Links to other related resources (such as tutorials, communities, etc.)
-- If you want to provide configuration files or other related resources, you can place them in a same-named folder, and provide a link to it in the Markdown file.
-- All content should be placed in the corresponding platform directory (Windows, Linux, Mac, or General).
+  - Links to other related resources (tutorials, communities, etc.)
 
 ## Disclaimer
 
