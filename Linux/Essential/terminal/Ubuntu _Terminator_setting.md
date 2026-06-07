@@ -169,3 +169,8 @@ nautilus -q
 **最后更新：2026-06-06**
 
 
+
+
+---
+
+### [回到 terminal](README.md)

@@ -102,3 +102,8 @@ chmod +x clash-party-x86_64.AppImage
 4. 开启 **系统代理** 或 **TUN 模式**
 
 > **注意：** Clash Party 是 Electron 应用，内存占用约 100MB+。低配设备建议使用 Clash Verge Rev（Tauri 应用，资源占用更低）。
+
+
+---
+
+### [回到 network-proxy](README.md)

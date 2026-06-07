@@ -92,3 +92,8 @@ chmod +x Clash.Verge-x86_64.AppImage
 4. 点击 **系统代理** 或 **TUN 模式** 开启代理
 
 > TUN 模式（虚拟网卡）可实现全局代理，包括终端流量。Linux 下 TUN 模式可能需要管理员权限。
+
+
+---
+
+### [回到 network-proxy](README.md)

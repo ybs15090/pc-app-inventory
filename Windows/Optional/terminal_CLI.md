@@ -99,3 +99,8 @@ scoop install tabby
 - [MobaXterm — 官网](https://mobaxterm.mobatek.net/)
 - [MobaXterm — 汉化项目](https://github.com/RipplePiam/MobaXterm-Chinese-Simplified)
 - [Tabby — 官网](https://tabby.sh/)
+
+
+---
+
+### [回到 Windows/Optional](README.md)

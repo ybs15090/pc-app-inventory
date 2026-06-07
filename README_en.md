@@ -2,19 +2,27 @@
 [中文说明文档](README_zh.md)
 ## Overview
 
-This repository contains a curated list of recommended software and tools for PC users, with sections for Windows, Linux, and general utilities.
+This repository contains a curated list of recommended software and tools for PC and mobile devices.
 
-## Windows
+## [Windows](Windows/README.md)
 
 A section for essential Windows applications and productivity tools.
 
-## Linux
+## [Linux](Linux/README.md)
 
 Currently focused on Ubuntu-related software and useful Linux utilities.
 
-## General
+## [General](General/README.md)
 
 General software and settings that work across platforms.
+
+## [Android](Android/README.md)
+
+Tools and apps for the Android system.
+
+## [iOS](iOS/README.md)
+
+Tools and apps for the iOS / iPadOS system.
 
 ## Usage
 

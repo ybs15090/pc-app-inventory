@@ -1,5 +1,5 @@
-# Linux
-目前主要聚焦 Ubuntu 20.04 及相关工具。
+# General
+跨平台通用软件与配置，适用于 Windows、macOS 和 Linux。
 
 ## 分类
 

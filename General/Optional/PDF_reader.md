@@ -1,27 +1,57 @@
 # 目录 <!-- omit in toc -->
-- [Poppler/pdftoppm](#popplerpdftoppm)
+- [Poppler / pdftoppm](#poppler--pdftoppm)
   - [安装](#安装)
+    - [Linux](#linux)
+    - [macOS](#macos)
+    - [Windows](#windows)
   - [使用](#使用)
+  - [相关链接](#相关链接)
 
+# Poppler / pdftoppm
 
-# Poppler/pdftoppm
-Poppler 是一个 PDF 渲染库，基于 Xpdf-3.0 版本开发。它提供了一个 C++ API，可以用于解析和渲染 PDF 文件。
-pdftoppm 是Poppler 提供的一个命令行工具, 用于将 PDF 文件转换为 PPM、PNG 或 JPEG 格式的图像。它支持多页 PDF 文件，可以指定输出图像的分辨率和质量。
+Poppler 是一个开源的 PDF 渲染库（基于 Xpdf），提供 C++ API 用于解析和渲染 PDF 文件。其中 `pdftoppm` 是其附带的命令行工具，可将 PDF 页面转换为 PPM、PNG 或 JPEG 格式的图像，在 AI 工作流中常用于将 PDF 文档转换为图片供视觉模型分析。
+
 ## 安装
-在 Linux 系统上，可以使用包管理器安装 Poppler 和 pdftoppm。例如，在 Debian/Ubuntu 上，可以运行以下命令：
+
+### Linux
 
 ```bash
-sudo apt-get update
-sudo apt-get install poppler-utils
+# Debian / Ubuntu
+sudo apt update
+sudo apt install poppler-utils -y
 ```
-在 macOS 上，可以使用 Homebrew 安装：
+
+### macOS
 
 ```bash
 brew install poppler
 ```
-在 Windows 上，可以从 Poppler 的官方网站下载预编译的二进制文件，并将其添加到系统路径中。
+
+### Windows
+
+从 [Poppler 官网](https://poppler.freedesktop.org/) 下载预编译的二进制包，解压后将 `bin/` 目录加入系统 PATH。
 
 ## 使用
-可查阅官方文档：https://poppler.freedesktop.org/
-- 一些 AI 助手可以使用 pdftoppm 将 PDF 文件转换为图像格式，以便进行进一步的处理和分析。例如，将 PDF 文件转换为 PNG 图像：
 
+```bash
+# 将 PDF 所有页面转为 PNG（每页一个文件）
+pdftoppm -png input.pdf output_prefix
+
+# 将 PDF 所有页面转为 JPEG，指定分辨率 300 DPI
+pdftoppm -jpeg -r 300 input.pdf output_prefix
+
+# 仅转换第一页（-f 1 -l 1）
+pdftoppm -png -f 1 -l 1 input.pdf output_prefix
+
+# 单页转为单张图片（不按页拆分）
+pdftoppm -png -singlefile input.pdf output_name
+```
+
+## 相关链接
+
+- [Poppler 官网](https://poppler.freedesktop.org/)
+- [Poppler 文档](https://manpages.debian.org/stable/poppler-utils/pdftoppm.1.en.html)
+
+---
+
+### [回到 General/Optional](README.md)

@@ -46,3 +46,7 @@ cat vscode-extensions.txt | xargs -L 1 code --install-extension
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+
+---
+
+### [回到 General/Essential](../README.md)

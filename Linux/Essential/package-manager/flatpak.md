@@ -166,3 +166,8 @@ flatpak install flathub com.github.tchx84.Flatseal
 | 用户级安装 | `~/.local/share/flatpak/` |
 
 > **最佳实践（2025）：** 桌面 GUI 应用优先使用 Flatpak（或 Snap）安装；系统工具、驱动和开发库使用原生包管理器（APT/DNF/Pacman）。
+
+
+---
+
+### [回到 package-manager](README.md)

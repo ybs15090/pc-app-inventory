@@ -90,3 +90,8 @@ ext:md "weekly-report" dm:last7days
 - [下载页面](https://www.voidtools.com/zh-cn/download/)
 - [搜索语法帮助](https://www.voidtools.com/support/everything/searching/)
 - [命令行 es.exe 文档](https://www.voidtools.com/support/everything/command_line_interface/)
+
+
+---
+
+### [回到 效率与自动化](README.md)

@@ -56,3 +56,7 @@ github：https://github.com/gnome-terminator/terminator
 
 ## 相关配置
 - [Ubuntu Terminator setting](Ubuntu%20_Terminator_setting.md)
+
+---
+
+### [回到 terminal](README.md)

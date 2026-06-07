@@ -24,3 +24,8 @@
 
 github: https://github.com/farion1231/cc-switch/releases
 
+
+
+---
+
+### [回到 CC-Switch](README.md)

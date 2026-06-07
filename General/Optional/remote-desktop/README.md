@@ -4,3 +4,7 @@
 ## 清单
 
 - [AnyDesk](anydesk.md) — 低延迟远程桌面，个人免费
+
+---
+
+### [回到 General/Optional](../README.md)

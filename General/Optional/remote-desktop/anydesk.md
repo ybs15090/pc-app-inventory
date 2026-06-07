@@ -94,3 +94,8 @@ sudo dnf install anydesk
 - [AnyDesk 官网](https://anydesk.com/)
 - [AnyDesk 下载页面](https://anydesk.com/download)
 - [AnyDesk 帮助中心](https://support.anydesk.com/)
+
+
+---
+
+### [回到 remote-desktop](README.md)

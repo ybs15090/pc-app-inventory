@@ -145,3 +145,8 @@ distrobox enter ubuntu22 -- ./CC-Switch-v3.14.0-Linux-x86_64.AppImage
 
 ## 确定当前终端身处何处
 cat /etc/os-release | grep VERSION
+
+
+---
+
+### [回到 Linux/Optional](README.md)

@@ -6,3 +6,7 @@
 - [Everything](everything.md) — 即时文件名搜索
 - [PixPin](pixpin.md) — 截图与贴图工具
 - [Quicker](quicker.md) — 指尖工具箱，一键执行任意操作
+
+---
+
+### [回到 Windows/Essential](../README.md)

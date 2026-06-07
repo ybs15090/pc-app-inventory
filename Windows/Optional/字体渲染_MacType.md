@@ -59,3 +59,8 @@ ProcessName.exe
 
 - [MacType 用户手册](https://github.com/snowie2000/mactype/wiki)
 - [GitHub 社区版](https://github.com/snowie2000/mactype)
+
+
+---
+
+### [回到 Windows/Optional](README.md)

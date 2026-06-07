@@ -72,3 +72,8 @@ winget install spacedesk
 - [Spacedesk 官方网站 (中文)](https://www.spacedesk.net/zh/)
 - [Spacedesk 下载页面](https://www.spacedesk.net/zh/downloads/)
 - [Spacedesk 用户手册](https://manual.spacedesk.net/)
+
+
+---
+
+### [回到 remote-desktop](README.md)

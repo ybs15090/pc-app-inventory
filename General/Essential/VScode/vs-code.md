@@ -40,3 +40,8 @@ Visual Studio Code (简称 VScode) 是一款适用于 Windows、macOS 和 Linux 
 ## 更新
 
 VS Code 每周都会发布新版本。如果 VS Code 软件仓库安装正确，系统包管理器会像处理系统上的其他软件包一样处理自动更新。
+
+
+---
+
+### [回到 VScode](README.md)

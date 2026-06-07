@@ -2,19 +2,27 @@
 [English README](README_en.md)
 ## 概览
 
-本仓库收录了适用于 PC 的推荐软件与工具清单，包含 Windows、Linux 和通用工具三个部分。
+本仓库收录了适用于 PC 和移动设备的推荐软件与工具清单。
 
-## Windows
+## [Windows](Windows/README.md)
 
 适用于 Windows 的必装软件和生产力工具。
 
-## Linux
+## [Linux](Linux/README.md)
 
 目前主要是 Ubuntu 相关的软件和实用 Linux 工具。
 
-## General
+## [General](General/README.md)
 
 跨平台通用软件与配置。
+
+## [Android](Android/README.md)
+
+Android 系统的工具与应用。
+
+## [iOS](iOS/README.md)
+
+iOS / iPadOS 系统的工具与应用。
 
 ## 使用方法
 

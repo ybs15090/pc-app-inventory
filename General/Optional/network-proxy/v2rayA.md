@@ -159,3 +159,8 @@ sudo systemctl status v2raya
 | IPv6 无法连接 | `sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=0` |
 | Snap 版无法透明代理 | Snap 沙箱限制，改用 APT 方式安装 |
 | Windows 开机自启 | 安装时勾选"开机自启"，或手动将快捷方式放入启动文件夹 |
+
+
+---
+
+### [回到 network-proxy](README.md)

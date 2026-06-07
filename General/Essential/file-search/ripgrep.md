@@ -118,3 +118,8 @@ rg -uuu "pattern"          # 搜索所有文件，不做任何过滤
 - [GitHub 仓库](https://github.com/BurntSushi/ripgrep)
 - [GitHub Releases（下载页面）](https://github.com/BurntSushi/ripgrep/releases)
 - [ripgrep 使用指南（官方指南）](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)
+
+
+---
+
+### [回到 file-search](README.md)
