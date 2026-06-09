@@ -1,4 +1,4 @@
-# PC 软件合集
+﻿# PC 软件合集
 [English README](README_en.md)
 ## 概览
 
@@ -28,15 +28,18 @@ iOS / iPadOS 系统的工具与应用。
 >统计仅供参考！
 
 | 平台 | Essential | Optional | 合计 |
-|------|-----------|----------|------|
-| Windows | 3 | 7 | **10** |
+| ------ | ----------- | ---------- | ------ |
+| Windows | 4 | 10 | **14** |
 | Linux | 11 | 5 | **16** |
 | MacOS | 0 | 0 | **0** |
 | General | 6 | 9 | **15** |
 | Android | 0 | 1 | **1** |
 | iOS | 0 | 0 | **0** |
 
-> 运行 `bash scripts/count-software.sh` 可刷新统计。
+> 刷新统计：
+- Windows：双击 `scripts/count-software.bat`
+- 多平台通用：`python scripts/count-software.py`
+- Bash：`bash scripts/count-software.sh`
 
 ## 使用方法
 

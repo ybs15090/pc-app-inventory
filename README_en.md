@@ -1,4 +1,4 @@
-# PC Software Collection
+﻿# PC Software Collection
 [中文说明文档](README_zh.md)
 ## Overview
 
@@ -27,15 +27,18 @@ Tools and apps for the iOS / iPadOS system.
 ## Software Count <!-- omit in toc -->
 
 | Platform | Essential | Optional | Total |
-|----------|-----------|----------|-------|
-| Windows | 3 | 7 | **10** |
+| ---------- | ----------- | ---------- | ------- |
+| Windows | 4 | 10 | **14** |
 | Linux | 11 | 5 | **16** |
 | MacOS | 0 | 0 | **0** |
 | General | 6 | 9 | **15** |
 | Android | 0 | 1 | **1** |
 | iOS | 0 | 0 | **0** |
 
-> Run `bash scripts/count-software.sh` to refresh stats.
+> Refresh stats:
+> - Windows: double-click `scripts/count-software.bat`
+> - Cross-platform: `python scripts/count-software.py`
+> - Bash: `bash scripts/count-software.sh`
 
 ## Usage
 

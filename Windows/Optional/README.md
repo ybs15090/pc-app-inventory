@@ -2,6 +2,8 @@
 
 ## 清单
 
+- [效率与自动化](效率与自动化/README.md) — 系统增强与效率工具
+- [Network](Network/README.md) — 网络工具
 - [remote-desktop](remote-desktop/README.md) — 远程桌面与屏幕扩展
 - [terminal_CLI.md](terminal_CLI.md) — 终端工具（Windows Terminal、MobaXterm、Tabby）
 - [图吧工具箱.md](图吧工具箱.md) — 硬件检测与测试工具集

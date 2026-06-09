@@ -1,17 +1,22 @@
-<!-- software-count: 3 -->
+<!-- software-count: 4 -->
 # 目录 <!-- omit in toc -->
 - [ Windows Terminal](#-windows-terminal)
   - [安装](#安装)
   - [使用](#使用)
-- [ MobaXterm (推荐)](#-mobaxterm-推荐)
+- [ Powershell 7](#-powershell-7)
   - [安装](#安装-1)
+  - [配置](#配置)
+- [ MobaXterm (推荐)](#-mobaxterm-推荐)
+  - [安装](#安装-2)
   - [核心功能](#核心功能)
   - [使用提示](#使用提示)
 - [  Tabby](#--tabby)
-  - [安装](#安装-2)
+  - [安装](#安装-3)
 - [相关链接](#相关链接)
     - [回到 Windows/Optional](#回到-windowsoptional)
 
+
+写在篇首：Windows Terminal 是**终端模拟器**（负责显示界面），PowerShell 7 是**Shell 运行环境**（负责执行命令），两者互相独立、可以组合使用。推荐将 PowerShell 7 设为 Windows Terminal 的默认 Shell，获得最佳体验。
 # <img src="../../.media/svg/Windows-terminal.svg" width="60" height="60" alt="github-logo"> Windows Terminal
 
 Windows Terminal 是微软为 Windows 10/11 打造的现代终端模拟器，支持多标签页、窗格分割、GPU 加速文本渲染、完全自定义的主题与配色方案，可在一个窗口中同时运行 PowerShell、CMD、WSL、Azure Cloud Shell 等多种命令行环境。
@@ -48,6 +53,40 @@ choco install microsoft-windows-terminal
 | 打开设置（GUI） | `Ctrl + ,` |
 
 **配置文件**：所有设置保存在 `settings.json` 中，可通过 GUI 界面编辑，也可直接编辑 JSON 文件。常用自定义项包括配色方案、字体（推荐 Cascadia Code）、背景图片/透明度、启动默认 Shell 等。
+
+# <img src="../../.media/svg/pwsh_black_128.svg" width="70" height="70" alt="github-logo"> Powershell 7
+
+PowerShell 7（命令名 `pwsh`）是 PowerShell 的开源跨平台版本，基于 .NET 构建，是 Windows PowerShell 5.1 的现代继任者。相比 5.1，它新增了管道链操作符（`&&`、`||`）、三元运算符、空合并运算符（`??`）、`ForEach-Object -Parallel` 并行处理等特性，同时与 Windows PowerShell 5.1 共存，互不干扰。
+
+> Windows 内置的 `powershell.exe` 是 5.1 版本；安装 PowerShell 7 后使用 `pwsh` 命令启动。
+
+## 安装
+
+```powershell
+# winget（推荐）
+winget install Microsoft.PowerShell
+
+# Scoop
+scoop install pwsh
+```
+
+也可从 [GitHub Releases](https://github.com/PowerShell/PowerShell/releases) 下载 `.msi` 安装包。
+
+## 配置
+
+**设置 Windows Terminal 默认 Shell**：打开 Windows Terminal 设置 → 启动 → 默认配置文件 → 选择 `PowerShell`（图标为黑色背景，即 pwsh 7）。
+
+**配置文件**：运行 `code $PROFILE` 可打开 PowerShell 配置脚本，用于设置别名、函数、提示符等。首次使用需先创建：
+
+```powershell
+New-Item -ItemType File -Path $PROFILE -Force
+```
+
+**Oh My Posh**（可选）：美化提示符的工具，支持 Git 状态显示、主题切换。
+
+```powershell
+winget install JanDeLaHaye.OhMyPosh
+```
 
 # <img src="../../.media/png/xterm_logo.png" width="50" height="50" alt="mobaxterm-logo"> MobaXterm (推荐)
 
