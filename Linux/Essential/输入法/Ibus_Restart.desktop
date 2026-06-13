@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Restart IBus
+Exec=terminator -e ~/your-path/ibus_restart.sh
+Icon=preferences-desktop-keyboard-shortcuts
+Terminal=false
+Type=Application
+StartupNotify=true
+

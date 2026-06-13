@@ -5,6 +5,7 @@
 
 - [Terminator](Terminator.md)
 - [tabby](tabby.md)
+- [config](config/config.md) — Shell 配置文件（`.bashrc`）：IBus、PATH、代理切换、ROS 环境
 
 ---
 
