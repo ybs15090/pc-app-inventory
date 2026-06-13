@@ -28,10 +28,10 @@ Tools and apps for the iOS / iPadOS system.
 
 | Platform | Essential | Optional | Total |
 | ---------- | ----------- | ---------- | ------- |
-| Windows | 4 | 10 | **14** |
+| Windows | 4 | 11 | **15** |
 | Linux | 11 | 5 | **16** |
 | MacOS | 0 | 0 | **0** |
-| General | 6 | 9 | **15** |
+| General | 6 | 11 | **17** |
 | Android | 0 | 1 | **1** |
 | iOS | 0 | 0 | **0** |
 
