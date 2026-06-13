@@ -1,5 +1,5 @@
 # 目录 <!-- omit in toc -->
-- [Aurora Store](#aurora-store)
+- [ Aurora Store](#-aurora-store)
   - [安装](#安装)
   - [特点](#特点)
   - [登录方式](#登录方式)
@@ -7,6 +7,11 @@
   - [相关链接](#相关链接)
 
 # <img src="../../../.media/jpg/Aurora-Store.jpg" width="60" alt="logo"> Aurora Store
+
+**推荐与 [Gbox](Gbox.md) 搭配使用**:
+- 不依赖 GMS 的应用直接使用 Aurora Store 下载即可
+- 强依赖 GMS 的应用使用 Gbox 容器运行
+---
 
 Aurora Store 是一款开源的 Google Play 第三方客户端（前身为 Yalp Store），可在不依赖 Google Play 服务（GMS）的设备上下载 Google Play 中的应用。它通过模拟 Google Play API 实现应用浏览、搜索和下载，无需 Google 账号即可使用匿名模式。
 
@@ -47,7 +52,7 @@ Aurora Store 是一款开源的 Google Play 第三方客户端（前身为 Yalp 
 - **付费应用**：Aurora Store 无法购买付费应用，只能更新已购买的应用和下载免费应用。
 - **安全性**：从 Aurora Store 下载的 APK 与 Google Play 下载的文件签名一致，均为官方版本，不会注入第三方代码。
 - **系统集成**：部分 ROM 已将 Aurora Store 作为默认应用商店，可在系统设置中开启「自动更新」。
-
+---
 ## 相关链接
 
 - [Aurora OSS 官网](https://auroraoss.com/)

@@ -32,7 +32,7 @@ Tools and apps for the iOS / iPadOS system.
 | Linux | 11 | 5 | **16** |
 | MacOS | 0 | 0 | **0** |
 | General | 6 | 11 | **17** |
-| Android | 0 | 1 | **1** |
+| Android | 0 | 6 | **6** |
 | iOS | 0 | 0 | **0** |
 
 > Refresh stats:
