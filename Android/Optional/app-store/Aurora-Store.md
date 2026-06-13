@@ -9,8 +9,8 @@
 # <img src="../../../.media/jpg/Aurora-Store.jpg" width="60" alt="logo"> Aurora Store
 
 **推荐与 [Gbox](Gbox.md) 搭配使用**:
-- 不依赖 GMS 的应用直接使用 Aurora Store 下载即可
-- 强依赖 GMS 的应用使用 Gbox 容器运行
+- 不依赖 GMS 的应用直接使用 `Aurora Store` 下载即可
+- 强依赖 GMS 的应用使用 `Gbox` 容器下载运行(会有微小性能损耗，但至少可以使用)
 ---
 
 Aurora Store 是一款开源的 Google Play 第三方客户端（前身为 Yalp Store），可在不依赖 Google Play 服务（GMS）的设备上下载 Google Play 中的应用。它通过模拟 Google Play API 实现应用浏览、搜索和下载，无需 Google 账号即可使用匿名模式。
