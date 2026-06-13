@@ -1,13 +1,14 @@
 <!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
-- [Office Tab](#office-tab)
+- [ Office Tab](#-office-tab)
   - [安装](#安装)
   - [主要功能](#主要功能)
   - [使用方法](#使用方法)
   - [相关链接](#相关链接)
+    - [回到 Windows/Essential/效率与自动化](#回到-windowsessential效率与自动化)
 
 
-# Office Tab
+# <img src="../../../.media/jpg/Office-Tab.jpg" width="60" alt="logo"> Office Tab
 
 Office Tab 是一款 Microsoft Office 插件，为 Word、Excel、PowerPoint 等应用添加类似浏览器的多标签页界面，让多个文档在同一窗口内以标签页形式并排管理，无需在任务栏反复切换窗口。
 
