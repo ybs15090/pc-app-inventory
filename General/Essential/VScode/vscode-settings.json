@@ -1,4 +1,5 @@
 {
+  "C_Cpp.intelliSenseCacheSize": 5120 , // 头文件索引的缓存上限，单位 MB，默认 5120（5G）
   "files.autoGuessEncoding": true,
   "files.candidateGuessEncodings": [
     "utf8",

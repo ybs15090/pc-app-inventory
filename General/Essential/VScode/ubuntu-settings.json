@@ -1,0 +1,142 @@
+{
+    "C_Cpp.intelliSenseCacheSize": 5120 , // 头文件索引的缓存上限，单位 MB，默认 5120（5G）
+
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    // 额外推荐的Markdown编辑设置
+    "[mdx]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+
+
+    "[cpp]": {
+        "editor.autoSurround": "languageDefined",
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        // "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.defaultModel": "outlineModel",
+
+    "markdown.preview.fontSize": 14,
+    "markdown.preview.lineHeight": 1.6,
+
+
+    "ros.isolateEnvironment": false,
+    "markdown-preview-enhanced.previewTheme": "atom-light.css",
+    "markdown-preview-enhanced.codeBlockTheme": "github.css",
+    "markdown-preview-enhanced.revealjsTheme": "none.css",
+    "editor.fontLigatures": false,
+    "editor.tokenColorCustomizations": {
+
+        "comments": "#559944c9"   
+        
+        //559944
+        //"#008000" // 例如，这里设置为纯绿色
+
+        // 或者更精细的控制，针对特定的token scope
+
+        // "textMateRules": [
+
+        //     {
+
+        //         "scope": "comment",
+
+        //         "settings": {
+
+        //             "foreground": "#008000" // 同样是纯绿色
+
+        //         }
+
+        //     },
+
+        //     {
+
+        //         "scope": "comment.block", // 如果想区分块注释
+
+        //         "settings": {
+
+        //             "foreground": "#339933" // 另一种绿色
+
+        //         }
+
+        //     },
+
+        //     {
+
+        //         "scope": "comment.line", // 如果想区分行注释
+
+        //         "settings": {
+
+        //             "foreground": "#66CC66" // 浅一点的绿色
+
+        //         }
+
+        //     }
+
+        // ]
+
+    },
+    "vsicons.presets.yamlOfficial": true,
+    "vsicons.associations.fileDefault.file": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "chatgpt.localeOverride": "zh-CN",
+    "chatgpt.composerEnterBehavior": "cmdIfMultiline",
+    "workbench.settings.applyToAllProfiles": [
+
+
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "claudeCode.preferredLocation": "panel",
+    
+    "urdf-visualizer.packages": {
+        "wpm2_bringup": "/home/s/ros_workspaces/wpm2_beifen/src/wpm2_bringup",
+
+        "wpv4_bringup": "/home/s/ros_workspaces/wpm2_beifen/src/wpv4_bringup"
+    },
+    "codeium.enableConfig": {
+        "*": true,
+        "markdown": true
+    },
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "claudeCodeUsage.language": "zh-CN",
+    "claudeCodeUsage.refreshInterval": 300,
+    "claudeCodeUsage.pauseDashboardRefresh": false,
+    "chat.viewSessions.orientation": "stacked",
+    "python.analysis.typeCheckingMode": "basic",
+    "markdown.extension.completion.enabled": true,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+    "workbench.colorTheme": "One Dark Modern",
+    "markdown-preview-enhanced.d2Sketch": true
+}
