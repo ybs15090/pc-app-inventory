@@ -1,0 +1,90 @@
+Claude Code CLI 长时间无反应时，可以用这几个步骤诊断是否是网络问题：
+
+快速诊断清单
+
+1. 检查是否真的在发送请求
+
+# 在另一个终端监听网络流量
+sudo tcpdump -i any -n host api.anthropic.com
+# 或用 strace 追踪进程系统调用
+ps aux | grep claude
+strace -p <PID> -e trace=network
+如果 tcpdump / strace
+看不到网络活动，说明不是网络卡，是本地挂起（权限提示、进程死锁等）。
+
+2. 检查是否卡在权限提示
+
+# 检查是否有后台权限确认窗口
+ps aux | grep -E "claude|notify|permission|prompt"
+
+# 如果有权限提示窗口卡住，查看有无输入提示
+# Claude Code CLI 权限提示会显示在 stdout 或需要终端交互
+症状：你的输入完全无反应，但 CPU 不高 → 大概率是等待你的权限确认。
+
+3. 检查网络连通性（更精准）
+
+# 测试 Anthropic API 的响应延迟
+curl -w "time_connect: %{time_connect}, time_total: %{time_total}\n" \
+-o /dev/null -s https://api.anthropic.com
+
+# 或用 mtr 追踪到 api.anthropic.com 的路由
+mtr api.anthropic.com -r -c 10
+
+# 检查 DNS 是否卡
+nslookup api.anthropic.com
+dig api.anthropic.com +stats
+如果 curl 响应 < 1s，DNS 解析 < 100ms，网络不是瓶颈。
+
+4. 检查 Claude Code 进程状态
+
+# 看进程是否真的在运行（不是僵尸进程）
+ps aux | grep claude
+# 状态 S = sleeping（正常等），Z = zombie（已死，父进程未清理）
+# D = disk sleep（I/O 阻塞）
+
+# 查看文件描述符，看是否有网络连接打开
+lsof -p <PID> | grep -E "TCP|socket"
+
+5. 查看 Claude Code 日志
+
+# Claude Code CLI 日志通常在
+cat ~/.claude/logs/*.log
+# 或 VSCode 扩展的日志
+# Linux: ~/.vscode/extensions/anthropic.claude-code-*/logs/
+
+# 实时查看
+tail -f ~/.claude/logs/latest.log
+关键词：timeout、ECONNREFUSED、ETIMEDOUT → 网络问题；PermissionError、waiting 
+for confirmation → 权限卡。
+
+6. 强制超时判断
+
+# 给 Claude Code 命令套上 timeout 限制
+timeout 30 claude code --help
+
+# 如果 timeout 后进程被杀死了
+# - 说明进程确实在运行但挂起（可能是网络 + 无重试机制）
+# - 如果 timeout 前自己就卡住了，说明是本地问题
+
+判断流程图
+
+Claude Code CLI 无反应
+├─ 能输入吗？
+│   ├─ 否 → 卡在权限提示 / 终端交互等待
+│   └─ 是 → 继续诊断
+│
+├─ 检查网络
+│   ├─ tcpdump 看不到数据包 → 本地挂起（CPU 高吗？）
+│   │   ├─ CPU 高 → 进程死循环或计算卡顿
+│   │   └─ CPU 低 → 互斥锁死锁 / 等待文件I/O
+│   │
+│   └─ tcpdump 有数据包但响应慢
+│       ├─ DNS 慢（nslookup 慢）→ DNS 问题 or 代理问题
+│       ├─ api.anthropic.com 响应慢 → 服务端 or ISP 网络
+│       └─ curl api.anthropic.com 快但 claude 慢 → Claude 代码 bug / TLS
+握手卡
+│
+└─ 查日志
+├─ 有 timeout / ECONNREFUSED → 网络问题
+└─ 有 permission prompt → 权限卡
+
