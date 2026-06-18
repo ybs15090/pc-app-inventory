@@ -3,6 +3,12 @@
   - [简介](#简介)
   - [安装](#安装)
   - [配置与使用](#配置与使用)
+    - [基本使用](#基本使用)
+    - [推荐配置](#推荐配置)
+    - [进程排除](#进程排除)
+    - [MacType 与文字大小 120% 失效修复](#mactype-与文字大小-120-失效修复)
+    - [相关资源](#相关资源)
+    - [回到 Windows/Optional](#回到-windowsoptional)
 
 
 # MacType
@@ -54,6 +60,26 @@ ProcessName.exe
 ```
 
 常见需排除的进程：`chrome.exe`（当使用 DirectWrite 模式时）、部分反作弊游戏。
+
+---
+
+### MacType 与文字大小 120% 失效修复
+
+>**问题**：每次重启后"设置 → 辅助功能 → 文字大小"的 120% 设置不生效，需手动重新应用。
+
+**根因**：MacType 服务（`AUTO_START`）在登录早期启动并接管 GDI 渲染，其 `RedrawDelay=5000` 导致初始化需 5 秒以上；Windows 的文字大小广播消息（`WM_SETTINGCHANGE`）恰在此窗口内触发，被 MacType 钩子干扰，第一次广播失效。
+
+**修复步骤**：
+
+**第一步**：创建脚本 [`~\.scripts\reapply-textscale.ps1`](../../scripts\MacType-setting\reapply-textscale.ps1)[点击跳转](../../scripts/MacType-setting/reapply-textscale.ps1)
+
+**第二步**：以管理员身份运行 PowerShell，执行以下命令注册登录延迟任务(用户名和路径要替换为实际用户名和路径)：
+
+```powershell
+Register-ScheduledTask -TaskName "ReapplyTextScale-MacType" -Action (New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Hidden -NonInteractive -ExecutionPolicy Bypass -File `"C:\Users\ybs15\.scripts\reapply-textscale.ps1`"") -Trigger (New-ScheduledTaskTrigger -AtLogOn -User "ybs15") -Settings (New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Minutes 2) -MultipleInstances IgnoreNew) -Description "MacType 初始化后重新应用文字大小 120%" -Force
+```
+
+**效果**：登录后约 8 秒自动重新广播设置，无需手动操作。
 
 ### 相关资源
 
