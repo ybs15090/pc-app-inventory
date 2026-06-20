@@ -1,2 +1,12 @@
 {
+    "folder-color.pathColors": [
+        {
+            "folderPath": "pc-app-inventory\\.media\\",
+            "badge": "😀"
+        },
+        {
+            "folderPath": "pc-app-inventory\\Android\\",
+            "badge": "🟨"
+        }
+    ]
 }
