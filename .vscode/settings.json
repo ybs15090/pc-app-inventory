@@ -1,4 +1,8 @@
 {
+    //********************************************
+    //   以下配置项需要vscode插件: Folder Color
+    //********************************************
+    //Folder Color begin
     "folder-color.pathColors": [
         {
             "folderPath": "pc-app-inventory\\.media\\",
@@ -6,7 +10,36 @@
         },
         {
             "folderPath": "pc-app-inventory\\Android\\",
-            "badge": "🟨"
+            "badge": "🟩"
+        },
+        {
+            "folderPath": "pc-app-inventory\\Android\\",
+            "color": "foldercolorizer.color_87af00"
+        },
+        {
+            "folderPath": "pc-app-inventory\\Linux\\",
+            "color": "foldercolorizer.color_ffaf00",
+            "badge": "🟠"
+        },
+        {
+            "folderPath": "pc-app-inventory\\Windows\\",
+            "color": "foldercolorizer.color_00d7ff",
+            "badge": "🪟"
+        },
+        {
+            "folderPath": "pc-app-inventory\\General\\",
+            "color": "foldercolorizer.color_af00ff",
+            "badge": "💜"
+        },
+        {
+            "folderPath": "pc-app-inventory\\scripts\\",
+            "badge": "✴️"
+        },
+        {
+            "folderPath": "pc-app-inventory\\iOS\\",
+            "badge": "🍎"
         }
     ]
+    // Folder Color end
+    
 }
