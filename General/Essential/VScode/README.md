@@ -50,7 +50,7 @@ cat vscode-extensions.txt | xargs -L 1 code --install-extension
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Outline Map](https://marketplace.visualstudio.com/items?itemName=Gerrnperl.outline-map): 一个可视化的交互式大纲地图，它结合了大纲地图的清晰度和迷你地图的直观概览。它是 VS Code 内置大纲地图的增强版。
   推荐勾选:"Outline-map>Find Ref: Enabled",点击时自动寻找所有引用
-- [ ] 
+- [Window Colors](https://marketplace.visualstudio.com/items?itemName=stuart.unique-window-colors):为每个 VSCode 窗口自动赋予独特的颜色
 
 ---
 
