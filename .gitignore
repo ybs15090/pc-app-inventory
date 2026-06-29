@@ -3,3 +3,4 @@
 *.rar
 *.log
 /.obsidian/
+.vscode/settings.json
