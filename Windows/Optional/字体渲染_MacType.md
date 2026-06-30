@@ -65,21 +65,43 @@ ProcessName.exe
 
 ### MacType 与文字大小 120% 失效修复
 
->**问题**：每次重启后"设置 → 辅助功能 → 文字大小"的 120% 设置不生效，需手动重新应用。
+> **问题**：冷启动（长时间断电后第一次开机）后，"设置 → 辅助功能 → 文字大小"的 120% 不生效，需手动拖一次滑块才恢复。快速重启通常不复现。
 
-**根因**：MacType 服务（`AUTO_START`）在登录早期启动并接管 GDI 渲染，其 `RedrawDelay=5000` 导致初始化需 5 秒以上；Windows 的文字大小广播消息（`WM_SETTINGCHANGE`）恰在此窗口内触发，被 MacType 钩子干扰，第一次广播失效。
+**真根因**：Windows 传统桌面字体缩放由 `Control Panel\Desktop\WindowMetrics` 的 LOGFONT 控制（与 UWP 的 `TextScaleFactor` 是两套机制）。冷启动时磁盘服务慢，MacType 的 GDI 钩子与 Windows 下发非客户区字体度量**抢时序**，MacType 先行缓存了未缩放字体，导致设置正确但渲染仍为 100%。热重启磁盘有缓存，抢赢几率低，所以通常正常。
 
-**修复步骤**：
+**修复思路**：用登录计划任务，等 MacType 服务稳定后，通过 `SPI_SETNONCLIENTMETRICS` 强制重新下发一次当前非客户区字体度量（用 ±1px 微扰触发真实变更再还原），让 MacType 在已起来的状态下重新接收正确度量。
 
-**第一步**：创建脚本 [`~\.scripts\reapply-textscale.ps1`](../../scripts\MacType-setting\reapply-textscale.ps1)[点击跳转](../../scripts/MacType-setting/reapply-textscale.ps1)
+**第一步**：创建脚本 [`~\.scripts\reapply-textscale.ps1`](../../scripts/MacType-setting/reapply-textscale.ps1)
 
-**第二步**：以管理员身份运行 PowerShell，执行以下命令注册登录延迟任务(用户名和路径要替换为实际用户名和路径)：
+**第二步**：以管理员身份运行 PowerShell，注册登录触发任务（路径和用户名替换为实际值）：
 
 ```powershell
-Register-ScheduledTask -TaskName "ReapplyTextScale-MacType" -Action (New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Hidden -NonInteractive -ExecutionPolicy Bypass -File `"C:\Users\ybs15\.scripts\reapply-textscale.ps1`"") -Trigger (New-ScheduledTaskTrigger -AtLogOn -User "ybs15") -Settings (New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Minutes 2) -MultipleInstances IgnoreNew) -Description "MacType 初始化后重新应用文字大小 120%" -Force
+Register-ScheduledTask -TaskName "ReapplyTextScale-MacType" `
+  -Action (New-ScheduledTaskAction -Execute "powershell.exe" `
+    -Argument "-NoProfile -WindowStyle Hidden -NonInteractive -ExecutionPolicy Bypass -File `"C:\Users\<用户名>\.scripts\reapply-textscale.ps1`"") `
+  -Trigger (New-ScheduledTaskTrigger -AtLogOn -User "<用户名>") `
+  -Settings (New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Minutes 2) `
+    -MultipleInstances IgnoreNew `
+    -DisallowStartIfOnBatteries $false -StopIfGoingOnBatteries $false) `
+  -Description "MacType 初始化后重新应用文字大小 120%" -Force
 ```
 
-**效果**：登录后约 8 秒自动重新广播设置，无需手动操作。
+**效果**：登录后约 8 秒自动修复，无需手动操作。日志记录在 `~\.scripts\textscale-boot-probe.log`。
+
+**排查方法**：
+
+```powershell
+# 查看上次任务结果，非 0 表示脚本崩溃
+Get-ScheduledTaskInfo -TaskName ReapplyTextScale-MacType
+```
+
+若 `LastTaskResult` 非 0，用 **PowerShell 5.1**（而非 pwsh 7）直接跑脚本看报错。
+
+**维护注意事项**：
+
+- 脚本只能用**英文注释，保持纯 ASCII**——PS 5.1 在无 BOM 的 UTF-8 文件中遇到中文字节会解析错乱，导致脚本崩溃、缩放不生效
+- 计划任务命令行必须带 **`-NoProfile`**，否则用户配置文件中的交互式菜单会在非交互模式下报错
+- 调试时用 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` 复现，和任务实际运行环境一致
 
 ### 相关资源
 
