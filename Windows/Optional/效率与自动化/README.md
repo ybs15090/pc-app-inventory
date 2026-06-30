@@ -4,6 +4,7 @@
 ## 清单
 
 - [PowerToys](powertoys.md) — 微软官方系统增强工具集
+- [iSlide](iSlide.md) — 基于 PowerPoint 的专业演示设计插件
 
 ---
 
