@@ -4,6 +4,7 @@
 
 - [terminal](terminal/README.md) — 终端模拟器（Terminator、Tabby）
 - [file-search](file-search/README.md) — 文件搜索工具
+- [file-manager](file-manager/README.md) — 文件管理器右键菜单定制
 - [package-manager](package-manager/README.md) — 软件包管理器
 - [效率软件.md](效率软件.md) — 剪贴板历史、截图贴图
 - [文件编辑.md](文件编辑.md) — 文本与文件编辑工具
