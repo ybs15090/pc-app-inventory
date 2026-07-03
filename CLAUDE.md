@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 {Platform}/{Category}/{SoftwareName}.md
 ```
 
-- **Platform**: `Linux/`, `Windows/`, `Mac/`, `General/`（跨平台）
+- **Platform**: `Linux/`, `Windows/`, `MacOS/`, `General/`（跨平台）
 - **Category**: `Essential/`（必装）或 `Optional/`（扩展/选装）
 - 软件配置文件（如 VS Code 的 settings.json）作为附属资源放在软件同名目录下
 
