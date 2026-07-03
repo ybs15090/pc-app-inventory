@@ -1,11 +1,11 @@
 # 说明
-本文件夹收录的是 Linux 终端模拟器。
+本文件夹收录 Linux 终端模拟器及相关配置文件。
 
 ## 清单
 
 - [Terminator](Terminator.md)
 - [tabby](tabby.md)
-- [config](config/config.md) — Shell 配置文件（`.bashrc`）：IBus、PATH、代理切换、ROS 环境
+- [config](config/config.md) — 终端配置文件：Shell（`.bashrc`）与 Terminator 配置备份
 
 ---
 

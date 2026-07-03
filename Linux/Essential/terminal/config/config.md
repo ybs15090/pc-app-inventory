@@ -1,5 +1,5 @@
 # 目录 <!-- omit in toc -->
-- [Terminal 配置文件](#terminal-配置文件)
+- [终端配置文件](#终端配置文件)
   - [.bashrc](#bashrc)
     - [应用方法](#应用方法)
     - [自定义配置说明](#自定义配置说明)
@@ -7,10 +7,11 @@
       - [PATH 扩展](#path-扩展)
       - [代理切换脚本](#代理切换脚本)
       - [ROS 环境（机器人开发专用）](#ros-环境机器人开发专用)
+  - [Terminator 配置备份](#terminator-配置备份)
 
-# Terminal 配置文件
+# 终端配置文件
 
-本目录存放终端 Shell 的用户配置文件。
+本目录存放终端相关的用户配置文件，包括 Shell（`.bashrc`）及 Terminator 终端模拟器的配置备份。
 
 ## .bashrc
 
@@ -87,6 +88,12 @@ export DISABLE_ROS1_EOL_WARNINGS=1        # 屏蔽 EOL 警告
 ```
 
 不使用 ROS 的用户可删除这几行。分布式 ROS 配置（`ROS_IP`、`ROS_MASTER_URI`）已注释，按需启用。
+
+## Terminator 配置备份
+
+[`config/`](config/) 子目录备份了 Terminator 的用户配置（对应 `~/.config/terminator/`），包含快捷键、配色方案、字体及自定义命令菜单等设置，可直接复制回原路径以恢复。
+
+详见 [Terminator-用户配置备份.md](config/Terminator-用户配置备份.md)。
 
 ---
 
