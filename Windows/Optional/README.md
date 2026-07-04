@@ -11,6 +11,7 @@
 - [字体渲染_MacType.md](字体渲染_MacType.md) — Windows 字体渲染优化
 - [文件管理器](文件管理器/README.md) — 增强型文件管理器（XYplorer、OneCommander）
 - [桌面管理与美化](桌面管理与美化/README.md) — 桌面整理与美化工具（Fences 等）
+- [嵌入式开发](嵌入式开发/README.md) — 单片机/嵌入式开发 IDE（Keil MDK 等）
 
 ---
 
