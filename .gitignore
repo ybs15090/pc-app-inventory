@@ -4,3 +4,4 @@
 *.log
 /.obsidian/
 .vscode/settings.json
+/release/
