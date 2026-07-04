@@ -1,0 +1,38 @@
+[global_config]
+  enabled_plugins = Logger, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminalShot, ActivityWatch, InactivityWatch
+[keybindings]
+  split_vert = <Primary><Shift>h
+[profiles]
+  [[default]]
+    audible_bell = True
+    visible_bell = True
+    icon_bell = False
+    background_color = "#300a24"
+    background_darkness = 1.0
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 16
+    foreground_color = "#ffffff"
+    exit_action = Hold
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
+  [[CustomCommandsMenu]]
+    [[[source ros]]]
+      enabled = True
+      name = source ros
+      command = source ./devel/setup.bash
+      position = 0
+    [[[ls -a]]]
+      enabled = True
+      name = ls -a
+      command = ls -a
+      position = 1

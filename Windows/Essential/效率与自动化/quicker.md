@@ -11,6 +11,7 @@ Quicker 是一款 Windows 平台的效率工具，将日常重复操作封装为
 ## 安装
 
 从[官网](https://getquicker.net/)下载安装包，注册账号后即可使用。
+或通过命令安装：
 
 ```bash
 # winget
