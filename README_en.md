@@ -31,7 +31,7 @@ Tools and apps for the iOS / iPadOS system.
 | Windows | 4 | 16 | **20** |
 | Linux | 16 | 5 | **21** |
 | MacOS | 0 | 0 | **0** |
-| General | 7 | 16 | **23** |
+| General | 9 | 16 | **25** |
 | Android | 0 | 6 | **6** |
 | iOS | 0 | 0 | **0** |
 
