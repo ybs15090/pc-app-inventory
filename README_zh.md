@@ -27,7 +27,7 @@ iOS / iPadOS 系统的工具与应用。
 ##  收录统计 <!-- omit in toc -->
 >统计仅供参考！
 
-| 平台 | Essential | Optional | 合计 |
+|平台|Essential|Optional|合计|
 |------|-----------|----------|------|
 | Windows | 4 | 16 | **20** |
 | Linux | 16 | 5 | **21** |
