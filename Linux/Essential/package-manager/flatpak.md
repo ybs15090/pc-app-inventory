@@ -9,6 +9,9 @@
     - [Flathub Beta 频道](#flathub-beta-频道)
   - [常用命令](#常用命令)
   - [桌面集成与权限管理](#桌面集成与权限管理)
+    - [返回keepassxc](#返回keepassxc)
+    - [回到 package-manager](#回到-package-manager)
+
 
 
 # Flatpak
@@ -169,5 +172,7 @@ flatpak install flathub com.github.tchx84.Flatseal
 
 
 ---
+
+### [返回keepassxc](../../../General/Essential/password/keepassxc.md)
 
 ### [回到 package-manager](README.md)

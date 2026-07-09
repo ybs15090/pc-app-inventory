@@ -49,7 +49,7 @@ brew install --cask keepassxc
 
 ### Linux
 
-KeePassXC 官方推荐 Linux 桌面优先使用 Flatpak，也提供 AppImage、Snap、PPA 和各发行版软件包。
+KeePassXC 官方推荐 Linux 桌面优先使用 [Flatpak](../../../Linux/Essential/package-manager/flatpak.md)，也提供 AppImage、Snap、PPA 和各发行版软件包。
 
 ```bash
 # Flatpak
