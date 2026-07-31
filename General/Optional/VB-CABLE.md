@@ -1,6 +1,6 @@
 <!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
-- [VB-CABLE](#-vb-cable)
+- [ VB-CABLE](#-vb-cable)
   - [简介](#简介)
   - [安装](#安装)
     - [Windows](#windows)
@@ -11,8 +11,9 @@
     - [常见场景](#常见场景)
   - [其他平台替代方案](#其他平台替代方案)
   - [相关链接](#相关链接)
+    - [回到 General/Optional](#回到-generaloptional)
 
-# <img src="../../.media/svg/VB-CABLE.svg" width="60" height="60" alt="VB-CABLE logo"> VB-CABLE
+# <img src="../../.media/svg/video-x-generic.svg" width="60" height="60" alt="VB-CABLE logo"> VB-CABLE
 
 最轻量、易用的虚拟音频线，一进一出，适合将电脑播放的声音转为麦克风输入。
 
