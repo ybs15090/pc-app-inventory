@@ -20,6 +20,8 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 
 ## 媒体资源
 
+浏览器
+
 - `.media/svg/` — 软件图标（SVG 格式），用于 `README.md` 等页面
 - `.media/png/` — 截图和演示图片
 - `.media/svg_black/` — VS Code 专用图标（深色主题适配）
@@ -55,3 +57,7 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 - 使用中文撰写内容（README_en.md 除外）
 - 移动或重命名文件时，同步更新所有引用该文件的相对路径链接
 - `.gitignore` 忽略了 `*.zip`、`*.rar`、`*.log`
+
+## 其他
+
+- 对于所有操作,忽略`.obsidian`目录.

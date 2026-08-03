@@ -2,6 +2,8 @@
 
 ## 清单
 
+- [Google Chrome](Chrome.md) — 跨平台 Chromium 浏览器，扩展生态完善并与 Google 服务深度集成
+- [Microsoft Edge](Edge.md) — 跨平台 Chromium 浏览器，与 Windows 和 Microsoft 365 集成紧密
 - [Git](Git/git.md) — 分布式版本控制系统
 - [VScode](VScode/README.md) — 跨平台代码编辑器
 - [file-search](file-search/README.md) — 跨平台文件搜索（ripgrep）

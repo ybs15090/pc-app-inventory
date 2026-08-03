@@ -55,3 +55,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 使用中文撰写内容（README_en.md 除外）
 - 移动或重命名文件时，同步更新所有引用该文件的相对路径链接
 - `.gitignore` 忽略了 `*.zip`、`*.rar`、`*.log`
+
+## 其他
+
+- 对于所有操作,忽略`.obsidian`目录.
