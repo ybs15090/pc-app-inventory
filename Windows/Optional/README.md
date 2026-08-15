@@ -12,6 +12,7 @@
 - [文件管理器](文件管理器/README.md) — 增强型文件管理器（XYplorer、OneCommander）
 - [桌面管理与美化](桌面管理与美化/README.md) — 桌面整理与美化工具（Fences 等）
 - [嵌入式开发](嵌入式开发/README.md) — 单片机/嵌入式开发 IDE（Keil MDK 等）
+- [隐私与安全](隐私与安全/README.md) — 文件加密、应用访问控制与数据防泄漏工具
 
 ---
 
