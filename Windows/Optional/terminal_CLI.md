@@ -81,6 +81,7 @@ scoop install pwsh
 ```powershell
 New-Item -ItemType File -Path $PROFILE -Force
 ```
+配置文件示例：[Microsoft.PowerShell_profile.ps1](./config/Microsoft.PowerShell_profile.ps1)
 
 **Oh My Posh**（可选）：美化提示符的工具，支持 Git 状态显示、主题切换。
 

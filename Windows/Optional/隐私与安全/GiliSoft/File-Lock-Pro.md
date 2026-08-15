@@ -1,4 +1,14 @@
 <!-- software-count: 1 -->
+# 目录 <!-- omit in toc -->
+
+- [GiliSoft File Lock Pro](#gilisoft-file-lock-pro)
+  - [软件简介](#软件简介)
+  - [主要功能](#主要功能)
+  - [安装方法](#安装方法)
+  - [基本使用](#基本使用)
+  - [使用边界与注意事项](#使用边界与注意事项)
+  - [相关链接](#相关链接)
+
 # GiliSoft File Lock Pro
 
 ## 软件简介
