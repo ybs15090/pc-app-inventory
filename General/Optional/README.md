@@ -10,8 +10,8 @@
 - [PDF_reader.md](PDF_reader.md) — PDF 阅读与处理工具
 - [文件类型转换.md](文件类型转换.md) — 文件格式转换工具
 - [Draw.io](Draw.io.md) — 免费开源的跨平台图表绘制工具（流程图、UML、ER 图等）
-- [VB-CABLE](VB-CABLE.md) — Windows 虚拟音频线驱动，实现应用间音频路由
-- [Video](Video/README.md) — 视频与字幕工具（Subtitle Edit）
+- [VB-CABLE](VB-CABLE.md) — Windows/macOS 虚拟音频线驱动，实现应用间音频路由
+- [Video](Video/README.md) — 音视频软件总索引（录制、转换、字幕生成与封装等）
 
 ---
 
