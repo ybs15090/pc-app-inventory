@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 说明
 
 <img src="../../../.media/svg/tabby.svg" width="60" height="60" alt="github-logo">

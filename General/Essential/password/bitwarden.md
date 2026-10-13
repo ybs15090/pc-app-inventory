@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [ Bitwarden](#-bitwarden)
   - [安装](#安装)

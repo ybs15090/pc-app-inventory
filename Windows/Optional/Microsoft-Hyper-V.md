@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 
 # 目录 <!-- omit in toc -->
 - [Microsoft Hyper-V](#microsoft-hyper-v)

@@ -1,3 +1,4 @@
+<!-- software-count: 0 -->
 # Nautilus 文件管理器右键菜单添加"用 VS Code 打开"
 
 ## 概述

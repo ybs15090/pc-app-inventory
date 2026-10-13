@@ -1,3 +1,4 @@
+<!-- software-count: 0 -->
 # Terminator 用户配置备份
 
 备份日期：2026-07-03

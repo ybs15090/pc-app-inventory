@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [Microsoft Defender](#microsoft-defender)
   - [各平台说明](#各平台说明)

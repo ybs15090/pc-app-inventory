@@ -48,7 +48,7 @@ description: |
 结构如下（与 `AGENTS.md` 一致）：
 
 ```markdown
-<!-- software-count: N -->   ← 仅在需要时加，见「软件计数」一节
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [标题](#标题)
   - [安装](#安装)
@@ -93,24 +93,18 @@ description: |
 
 ### 7. 软件计数（关键）
 
-`scripts/count-software.py` 统计各平台软件数并写入 README 统计表，计数规则按优先级：
+`scripts/count-software.py` 只按正文前 20 行内、代码块外唯一的独立 `software-count` HTML 注释统计，不根据图片、标题或文件名推断数量。建议把标签放在第一行：
 
-1. `<!-- software-count: N -->`（文件前 20 行内）—— 手动指定，最高优先级
-2. `## <img` 开头的二级标题数量 —— 多软件文件
-3. `# <img` 开头的一级标题数量 —— 单/多软件文件
-4. 兜底 → 1
+- 单软件说明必须使用 `<!-- software-count: 1 -->`。
+- 多软件合集使用 `<!-- software-count: N -->`，把 N 替换为实际收录数量。
+- 配置、备份、故障处理及非软件专题使用 `<!-- software-count: 0 -->`，包括 `config.md`。
 
-**何时必须手动加 `<!-- software-count: N -->`：**
-
-- 一个文件收录多款软件，但**并非每款都有图标标题**（如 GParted 有 `# <img`、ncdu 只有纯 `# ncdu`）—— 自动计数会漏算，须在文件第一行写明真实数量
-- 任何自动规则会误判数量的情形
-
-单软件、或每款软件都带图标标题的多软件文件，无需手动加，交给自动统计即可。
+缺失标签的正文不计入且阻止刷新，无效或重复标签直接报错。补全文档时保留并核对已有标签，缺失时补齐。根目录的单软件、多软件和配置专题模板已经提供对应标签。
 
 ### 8. 收尾
 
 1. 更新同目录 `README.md`：把本文件加入清单（若未列出），附一句话用途说明
-2. 运行 `python scripts/count-software.py` 刷新根 README 统计表
+2. 运行 `python scripts/count-software.py --dry-run --details` 核对标签和明细，再运行 `python scripts/count-software.py` 刷新统计；Linux/macOS 使用 `python3`，所有入口需要 Python 3.8 或更新版本
 3. 向用户简要汇报新增的章节板块
 
 ## 注意事项

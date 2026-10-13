@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [Clash Party](#clash-party)
   - [简介](#简介)

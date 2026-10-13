@@ -1,9 +1,11 @@
---- 
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [ CC-Switch](#-cc-switch)
   - [为什么选择 CC Switch？](#为什么选择-cc-switch)
   - [下载安装](#下载安装)
-  
+    - [回到 CC-Switch](#回到-cc-switch)
+
+
 # <img src="../../../.media/png/cc-switch.png" width="60" height="60" alt="copyq logo"> CC-Switch
 
 ## 为什么选择 CC Switch？

@@ -1,4 +1,24 @@
-# LocalSend
+<!-- software-count: 1 -->
+# 目录 <!-- omit in toc -->
+
+- [ LocalSend](#-localsend)
+  - [软件简介](#软件简介)
+  - [安装方法](#安装方法)
+    - [Windows](#windows)
+    - [macOS](#macos)
+    - [Linux](#linux)
+      - [Flatpak](#flatpak)
+      - [Debian / Ubuntu 本地安装包](#debian--ubuntu-本地安装包)
+    - [Android / iOS](#android--ios)
+  - [使用方法](#使用方法)
+    - [发送与接收文件](#发送与接收文件)
+    - [常用设置](#常用设置)
+  - [常见问题](#常见问题)
+  - [官方文档与相关链接](#官方文档与相关链接)
+    - [回到文件传输目录](#回到文件传输目录)
+
+
+# <img src="../../../.media/png/LocalSend.png" width="60" alt="LocalSend logo"> LocalSend
 
 ## 软件简介
 

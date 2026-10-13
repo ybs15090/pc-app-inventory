@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [ Gbox (实测好用!)](#-gbox-实测好用)
   - [安装](#安装)

@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [网易UU远程](#网易uu远程)
   - [安装](#安装)

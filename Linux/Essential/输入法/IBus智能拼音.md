@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [IBus 智能拼音](#ibus-智能拼音)
   - [安装](#安装)

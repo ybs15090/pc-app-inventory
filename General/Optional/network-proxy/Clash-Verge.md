@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [Clash Verge Rev](#clash-verge-rev)
   - [简介](#简介)

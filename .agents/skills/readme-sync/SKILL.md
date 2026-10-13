@@ -48,7 +48,11 @@ description: |
 python scripts/count-software.py
 ```
 
-脚本会重新统计 `Windows`、`Linux`、`MacOS`、`General`、`Android`、`iOS` 各平台 `Essential/` 与 `Optional/` 的软件数，并原地替换两份 README 的统计表。若无 Python 环境，可用等价的 `scripts/count-software.sh`（或 `.ps1` / `.bat`）。
+脚本仅按 `Windows`、`Linux`、`MacOS`、`General`、`Android`、`iOS` 各平台 `Essential/` 与 `Optional/` 正文的显式 `software-count` 标签统计。单软件也必须标记 `1`，合集填实际数量，配置或非软件专题填 `0`；缺失标签会阻止刷新，不再根据图标标题推断。
+
+所有入口均需 Python 3.8 或更新版本，Linux/macOS 使用 `python3`。`.sh`、`.ps1`、`.bat` 仅转发到 Python 核心。可先用 `--dry-run --details` 核对明细，或用 `--check` 只读校验；详细用法见 `scripts/README.md`。
+
+两份 README 统计区块必须各有一对唯一、顺序正确的 `<!-- software-stats:start -->` 和 `<!-- software-stats:end -->` 标记。脚本保留编码、换行和区块外内容，无变化时不写文件；不得手工修改生成的数字。
 
 > 手工改统计数字会与脚本下次运行的结果冲突。只改说明性文字，数字交给脚本。
 

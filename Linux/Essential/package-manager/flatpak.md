@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [Flatpak](#flatpak)
   - [简介](#简介)

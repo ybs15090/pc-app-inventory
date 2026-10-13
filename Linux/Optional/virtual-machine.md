@@ -1,3 +1,4 @@
+<!-- software-count: 3 -->
 # 目录 <!-- omit in toc -->
 - [GNOME Boxes](#gnome-boxes)
   - [安装](#安装)

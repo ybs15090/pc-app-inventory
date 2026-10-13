@@ -1,3 +1,4 @@
+<!-- software-count: 0 -->
 # Ubuntu Terminator 终端配置指南
 
 ## 概述

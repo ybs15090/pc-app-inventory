@@ -1,0 +1,2 @@
+# Keep the Bash counter entry point usable after a Windows checkout.
+scripts/count-software.sh text eol=lf

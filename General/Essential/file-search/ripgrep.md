@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [ripgrep (rg)](#ripgrep-rg)
   - [安装](#安装)

@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [ Aurora Store](#-aurora-store)
   - [安装](#安装)

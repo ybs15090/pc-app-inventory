@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [Bitwarden Authenticator](#bitwarden-authenticator)
   - [安装](#安装)

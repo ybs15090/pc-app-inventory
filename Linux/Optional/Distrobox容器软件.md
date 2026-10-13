@@ -1,3 +1,4 @@
+<!-- software-count: 1 -->
 # 目录 <!-- omit in toc -->
 - [Distrobox](#distrobox)
   - [安装 distrobox（依赖 Docker 或 Podman）](#安装-distrobox依赖-docker-或-podman)

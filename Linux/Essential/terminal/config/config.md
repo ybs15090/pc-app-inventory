@@ -1,3 +1,4 @@
+<!-- software-count: 0 -->
 # 目录 <!-- omit in toc -->
 - [终端配置文件](#终端配置文件)
   - [.bashrc](#bashrc)
