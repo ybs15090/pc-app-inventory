@@ -12,6 +12,7 @@
 - [Draw.io](Draw.io.md) — 免费开源的跨平台图表绘制工具（流程图、UML、ER 图等）
 - [VB-CABLE](VB-CABLE.md) — Windows/macOS 虚拟音频线驱动，实现应用间音频路由
 - [Video](Video/README.md) — 音视频软件总索引（录制、转换、字幕生成与封装等）
+- [File-Transfer — 文件传输](File-Transfer-文件传输/README.md) — 跨平台局域网文件传输（LocalSend）
 
 ---
 
