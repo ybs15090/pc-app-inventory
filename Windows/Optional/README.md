@@ -9,7 +9,7 @@
 - [Microsoft-Hyper-V.md](Microsoft-Hyper-V.md) — Windows 原生虚拟化平台
 - [图吧工具箱.md](图吧工具箱.md) — 硬件检测与测试工具集
 - [字体渲染_MacType.md](字体渲染_MacType.md) — Windows 字体渲染优化
-- [文件管理器](文件管理器/README.md) — 增强型文件管理器（XYplorer、OneCommander）
+- [文件管理器](文件管理器/README.md) — 文件管理与磁盘空间分析（XYplorer、OneCommander、SpaceSniffer）
 - [桌面管理与美化](桌面管理与美化/README.md) — 桌面整理与美化工具（Fences 等）
 - [嵌入式开发](嵌入式开发/README.md) — 单片机/嵌入式开发 IDE（Keil MDK 等）
 - [隐私与安全](隐私与安全/README.md) — 文件加密、应用访问控制与数据防泄漏工具

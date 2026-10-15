@@ -31,10 +31,10 @@ iOS / iPadOS 系统的工具与应用。
 <!-- software-stats:start -->
 | 平台 | Essential | Optional | 合计 |
 | --- | --- | --- | --- |
-| Windows | 4 | 22 | **26** |
+| Windows | 4 | 23 | **27** |
 | Linux | 14 | 8 | **22** |
 | MacOS | 0 | 0 | **0** |
-| General | 11 | 25 | **36** |
+| General | 11 | 26 | **37** |
 | Android | 0 | 7 | **7** |
 | iOS | 0 | 0 | **0** |
 <!-- software-stats:end -->
