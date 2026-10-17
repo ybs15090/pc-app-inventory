@@ -31,7 +31,7 @@ Tools and apps for the iOS / iPadOS system.
 <!-- software-stats:start -->
 | Platform | Essential | Optional | Total |
 | --- | --- | --- | --- |
-| Windows | 4 | 23 | **27** |
+| Windows | 4 | 24 | **28** |
 | Linux | 14 | 8 | **22** |
 | MacOS | 0 | 0 | **0** |
 | General | 11 | 26 | **37** |
