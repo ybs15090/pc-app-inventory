@@ -40,10 +40,13 @@ cat vscode-extensions.txt | xargs -L 1 code --install-extension
 直接复制整个目录也可以迁移，但不如 CLI 方法干净。
 
 ## 必装扩展
+
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): 不同文件夹显示不同图标
 - [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-ceintl.vscode-language-pack-zh-hans)
 - [Folder Colors](https://marketplace.visualstudio.com/items?itemName=SergeyEgorov.folder-color): 自定义文件夹及文件的颜色,便于区分
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): git可视化
+- [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits): 基于Conventional Commits,使用交互式面板实现规范的git提交
+- [AI Commit](https://marketplace.visualstudio.com/items?itemName=Sitoi.ai-commit): 使用AI API 生成符合 Conventional Commit 规范的提交消息，简化提交流程，保持提交规范一致
 
 ## 推荐扩展
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
