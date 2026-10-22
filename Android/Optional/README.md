@@ -6,6 +6,7 @@
 - [文件管理](文件管理/README.md) — 文件整理、压缩包与文本编辑、APK 分析（MT 管理器）
 - [app-store](app-store/README.md) — 第三方应用商店（Aurora Store、APKPure、Uptodown）
 - [Google](Google/README.md) — Google 官方服务（Play Store）
+- [system](system/README.md) — 系统工具（Termux、Termux:API）
 
 ---
 
