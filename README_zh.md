@@ -34,7 +34,7 @@ iOS / iPadOS 系统的工具与应用。
 | Windows | 4 | 24 | **28** |
 | Linux | 14 | 8 | **22** |
 | MacOS | 0 | 0 | **0** |
-| General | 11 | 27 | **38** |
+| General | 12 | 27 | **39** |
 | Android | 0 | 9 | **9** |
 | iOS | 0 | 0 | **0** |
 <!-- software-stats:end -->
