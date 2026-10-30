@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 仓库概述
 
-这是一个 PC 软件清单文档仓库，按平台分类收录推荐软件与配置。目前主要聚焦 Ubuntu 20.04。所有内容均为 Markdown 格式。
+这是一个 PC 软件清单文档仓库，按平台分类收录推荐软件与配置。Linux 部分主要聚焦 Ubuntu 20.04 / 24.04，版本差异在对应文档中单独说明。所有内容均为 Markdown 格式。
 
 ## 目录结构
 

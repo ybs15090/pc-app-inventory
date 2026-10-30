@@ -111,4 +111,4 @@ flatpak install flathub md.obsidian.Obsidian
 
 ---
 
-### [回到 General/Optional](README.md)
+### [回到 General/Optional](../README.md)

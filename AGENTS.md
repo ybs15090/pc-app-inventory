@@ -4,7 +4,7 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 
 ## 仓库概述
 
-这是一个 PC 与移动设备软件清单仓库，按平台分类收录软件介绍、索引和配置专题。目前 Linux 内容主要聚焦 Ubuntu 20.04。主文档使用中文 Markdown，配置和脚本作为附属资源。
+这是一个 PC 与移动设备软件清单仓库，按平台分类收录软件介绍、索引和配置专题。目前 Linux 内容主要聚焦 Ubuntu 20.04 / 24.04，版本差异在对应文档中单独说明。主文档使用中文 Markdown，配置和脚本作为附属资源。
 
 新增或调整文档前，参考根目录 [文档编写约定.md](文档编写约定.md) 和目标目录已有文档；模板是新稿起点，不要求批量改写旧文档。
 

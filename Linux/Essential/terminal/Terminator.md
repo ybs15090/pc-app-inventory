@@ -57,6 +57,7 @@ github：https://github.com/gnome-terminator/terminator
 
 ## 相关配置
 - [Ubuntu Terminator setting](Ubuntu%20_Terminator_setting.md)
+- [Ubuntu 24.04 配置补充](Ubuntu%20_Terminator_setting-v2.0.md)
 
 ---
 

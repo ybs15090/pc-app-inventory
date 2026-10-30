@@ -3,7 +3,7 @@
 
 ## 概述
 
-本文档详细介绍了如何在Ubuntu系统中将Terminator设置为默认终端，解决文件管理器右键菜单"在终端打开"仍调用默认终端的问题。
+本文档介绍如何在 Ubuntu 中将 Terminator 设置为文件管理器的默认终端，解决右键菜单“在终端打开”仍调用默认终端的问题。内容以 Ubuntu 20.04 为主；Ubuntu 24.04（Nautilus 46）的依赖差异和更简单的 `.deb` 安装法见 [Ubuntu 24.04 配置补充](Ubuntu%20_Terminator_setting-v2.0.md)。
 
 ## 问题背景
 
@@ -11,7 +11,7 @@ Ubuntu文件管理器（Nautilus）的“在终端打开”右键菜单是由内
 
 ## 解决方案
 
-### 方案一：设置Terminator为系统默认终端
+### 方案一：设置 Terminator 为系统默认终端
 
 #### 1. 验证Terminator路径
 
@@ -25,11 +25,14 @@ which terminator
 
 #### 2. 修改右键默认终端
 
-打开现有的终端，安装Python相关的系统依赖项以及Nautilus的Python绑定库
+打开现有的终端，安装 Nautilus 的 Python 绑定和 pip。Ubuntu 20.04 / 22.04 只需要前两项；Ubuntu 24.04 的 Nautilus 46 使用 GTK 4，还需要两个 GTK 4 与 Nautilus 4.0 的内省数据包。
 
 ```bash
 sudo apt update
-sudo apt install python3-nautilus python3-pip gir1.2-gtk-4.0
+# Ubuntu 20.04 / 22.04
+sudo apt install python3-nautilus python3-pip
+# Ubuntu 24.04
+sudo apt install python3-nautilus python3-pip gir1.2-gtk-4.0 gir1.2-nautilus-4.0
 ```
 
 验证：

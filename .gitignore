@@ -5,3 +5,4 @@
 /.obsidian/
 .vscode/settings.json
 /release/
+scripts/__pycache__/
